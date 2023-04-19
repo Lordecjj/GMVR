@@ -1,0 +1,456 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.23f1 (9636b062134a) revision 9844400'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16249 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51591
+Successfully changed project path to: D:/My project (1)
+D:/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 161.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.23f1 (9636b062134a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   Intel
+    VRAM:     8124 MB
+    Driver:   31.0.101.2111
+Shader 'NatureManufacture Shaders/Ice Lake/Ice Shader Metalic Lake': fallback shader 'FX/Water' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009274 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 148.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+				TypeCache.Initialize (134ms)
+					TypeCache.ScanAssembly (133ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1661ms)
+			LoadAssemblies (385ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+				TypeCache.Initialize (400ms)
+					TypeCache.ScanAssembly (395ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (514ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'NatureManufacture Shaders/Ice Lake/Ice Shader Metalic Lake': fallback shader 'FX/Water' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (2.0 MB). Loaded Objects now: 4592.
+Memory consumption went from 0.81 GB to 0.81 GB.
+Total: 4.468300 ms (FindLiveObjects: 0.453700 ms CreateObjectMapping: 0.328700 ms MarkObjects: 3.157400 ms  DeleteObjects: 0.527200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 522391.598425 seconds.
+  path: Assets/Procedural Worlds/Gaia/Gaia Pro/Weather/VFX/Materials/Clouds_Sheet.mat
+  artifactKey: Guid(82cc8f8596ce8b245903c6a6ebcc7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Gaia/Gaia Pro/Weather/VFX/Materials/Clouds_Sheet.mat using Guid(82cc8f8596ce8b245903c6a6ebcc7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfc6f01140833fcca9984079f05af27') in 0.189309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 447.367740 seconds.
+  path: Assets/Forest Demo Scene/LightingData.asset
+  artifactKey: Guid(2c912e15bd140674a9b3ac276b40be85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/LightingData.asset using Guid(2c912e15bd140674a9b3ac276b40be85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbfc528ceaac942e3bc8e30627b763d') in 0.006568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Forest Demo Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d191ef3c46c7ca64cab974ac90723144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/Lightmap-0_comp_light.exr using Guid(d191ef3c46c7ca64cab974ac90723144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf8bc272414587dce31a2d5dacc30c6') in 0.048783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-2.exr
+  artifactKey: Guid(270cbe6c73f33b748931ed0ee1c5767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-2.exr using Guid(270cbe6c73f33b748931ed0ee1c5767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3041a9d654eb25b77278bfcccd463d2') in 0.088724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-9.exr
+  artifactKey: Guid(52e8cad5e99e5bc4c89e766b74db5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-9.exr using Guid(52e8cad5e99e5bc4c89e766b74db5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410274db31eb086ccd87c49ad2ffd3a7') in 0.033625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-26.exr
+  artifactKey: Guid(46daf6caf1c5ee340812cbbc748151b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-26.exr using Guid(46daf6caf1c5ee340812cbbc748151b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173d45ddc64f82cd873956fca4cbfd38') in 0.067943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-27.exr
+  artifactKey: Guid(c6f3e8e5b62adb5409ad771707bc00ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-27.exr using Guid(c6f3e8e5b62adb5409ad771707bc00ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c331d15394322c9b91c5e9545e0524bb') in 0.069721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-30.exr
+  artifactKey: Guid(61e2c370d7c17ca458182769c20443c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-30.exr using Guid(61e2c370d7c17ca458182769c20443c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1388d2cbcd00d72c499da6f1c002e74') in 0.062507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-23.exr
+  artifactKey: Guid(9433f6c0639f7f9479a4f7f48aba8b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-23.exr using Guid(9433f6c0639f7f9479a4f7f48aba8b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969d4e1295a8c820cd4b0693f5c82175') in 0.078658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-13.exr
+  artifactKey: Guid(e960b54308c8eb24fb3531e7162acd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-13.exr using Guid(e960b54308c8eb24fb3531e7162acd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f230b2c194e32fbe918874344c7b0aad') in 0.060815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-1.exr
+  artifactKey: Guid(2c0ecc81542dd604f939c101f7454846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-1.exr using Guid(2c0ecc81542dd604f939c101f7454846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af60665074b604d24836046c227bb4db') in 0.073405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-33.exr
+  artifactKey: Guid(164467e7e7b4084468fad439653a5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-33.exr using Guid(164467e7e7b4084468fad439653a5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd24790f0e3934020306200c194522d') in 0.068715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-4.exr
+  artifactKey: Guid(ff86cfa1935383b44b5839fde3ee3533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-4.exr using Guid(ff86cfa1935383b44b5839fde3ee3533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5124d9ed7904a69ba80a4373cd466b7') in 0.028971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-6.exr
+  artifactKey: Guid(6e4d9817bbfe5224da3864d70704d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-6.exr using Guid(6e4d9817bbfe5224da3864d70704d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbf4fae9330921a3cad468341ba93f4') in 0.078435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Forest Demo Scene/OcclusionCullingData.asset
+  artifactKey: Guid(3d93d3cf001bdd844a116fbe28b096dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/OcclusionCullingData.asset using Guid(3d93d3cf001bdd844a116fbe28b096dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75560f45ecbf0dfe6ee73eaf24e4fd31') in 0.041421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-24.exr
+  artifactKey: Guid(51a98a253829af340b460da758eb14b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-24.exr using Guid(51a98a253829af340b460da758eb14b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896c8ea04e1636b2b4e92d550763aa45') in 0.049842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-3.exr
+  artifactKey: Guid(d0010e4e3cbcd1e4a93cab9ad42b919a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-3.exr using Guid(d0010e4e3cbcd1e4a93cab9ad42b919a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f49beea56aec4c7a582899e1f8956a0') in 0.029493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-15.exr
+  artifactKey: Guid(9b1a9b0484e50e6429dbec308befeb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-15.exr using Guid(9b1a9b0484e50e6429dbec308befeb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535210132ba00a2215375303c602e5aa') in 0.050863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-11.exr
+  artifactKey: Guid(7c4c474b86301df41acce6811aa2313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-11.exr using Guid(7c4c474b86301df41acce6811aa2313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8402215433655b171728d005a07b2540') in 0.067350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-19.exr
+  artifactKey: Guid(b716272fe8ee8ec41a4e8e5aa6287367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-19.exr using Guid(b716272fe8ee8ec41a4e8e5aa6287367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e0fbd68a445d7457122d3e889214c7') in 0.035702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-10.exr
+  artifactKey: Guid(40464de33d5aedb4d828d64309734043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-10.exr using Guid(40464de33d5aedb4d828d64309734043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a8b1d71d72cfedd40bb4f6dc68afe') in 0.065398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-18.exr
+  artifactKey: Guid(c185436de18569944912a2d76404682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-18.exr using Guid(c185436de18569944912a2d76404682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35724e8b4fd2f1d2a4a435f45527e040') in 0.057515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(e87ee716006cf9a4a8b24fb0af950cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-0.exr using Guid(e87ee716006cf9a4a8b24fb0af950cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d2a1af49a6817235931fa484b90d51') in 0.063960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-7.exr
+  artifactKey: Guid(297ae108dc845c84a8a84352d9264083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-7.exr using Guid(297ae108dc845c84a8a84352d9264083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4044fbecbf2f53860fbe74bd064fdd') in 0.061519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-16.exr
+  artifactKey: Guid(dbc01fd0740562041a628efa38fbdc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-16.exr using Guid(dbc01fd0740562041a628efa38fbdc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b9a7d4abe620f2039a28a9d89adc45') in 0.075031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-17.exr
+  artifactKey: Guid(03b8da48afc384a43830bb0c93f32fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-17.exr using Guid(03b8da48afc384a43830bb0c93f32fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570fc5d895191c6133658da56390d5ed') in 0.027293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-12.exr
+  artifactKey: Guid(04367710622f0b34cbc835a0807afeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-12.exr using Guid(04367710622f0b34cbc835a0807afeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e3276f71991052f4961d9e29a6d1c5') in 0.056453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-22.exr
+  artifactKey: Guid(cc805461a86739c4bae3772e0de93d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-22.exr using Guid(cc805461a86739c4bae3772e0de93d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb5a337620fc26d200cdbbc8765db86') in 0.058290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-31.exr
+  artifactKey: Guid(e8c0b4a6641a07e4d8ecf7edd48f35d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-31.exr using Guid(e8c0b4a6641a07e4d8ecf7edd48f35d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37a22837b3defe248f225db85eb8f02') in 0.069177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Forest Demo Scene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(48e01108afad24f40a96b1661c78e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/Lightmap-0_comp_shadowmask.png using Guid(48e01108afad24f40a96b1661c78e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3c0347c968cc77ba1bc6f073309784') in 0.085414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-8.exr
+  artifactKey: Guid(440e5d54c04c8644a8a8dea18ada0128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-8.exr using Guid(440e5d54c04c8644a8a8dea18ada0128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078239a28b1f8cae6063eed22391e737') in 0.039725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Forest Demo Scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(bf1dc924511f6b04ca4b11b2ee703ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/Lightmap-0_comp_dir.png using Guid(bf1dc924511f6b04ca4b11b2ee703ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea627f4d7abb416028627ce7186deeb') in 0.064171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-5.exr
+  artifactKey: Guid(1ae816a2a60872943812fef03b57a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-5.exr using Guid(1ae816a2a60872943812fef03b57a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f490ff8f22ddfaafb07d018807dfff') in 0.055085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-25.exr
+  artifactKey: Guid(75089e0b9b0d42b4292860bdf40dc6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-25.exr using Guid(75089e0b9b0d42b4292860bdf40dc6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd051459d297575fdfbb05cd69905cd1') in 0.027596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-32.exr
+  artifactKey: Guid(ee8b21d4579e17147bd367d0c55834b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-32.exr using Guid(ee8b21d4579e17147bd367d0c55834b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c94b3d132fc07fe92b1aaaa973966c') in 0.051381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-14.exr
+  artifactKey: Guid(a2b39fe3b6ad5f24e8aaf83d81391ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-14.exr using Guid(a2b39fe3b6ad5f24e8aaf83d81391ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9103efcbfbc153da7d891749e1be6f37') in 0.058188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-20.exr
+  artifactKey: Guid(7fd32d5f5e03d914ea20b43398e707b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-20.exr using Guid(7fd32d5f5e03d914ea20b43398e707b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1975a2bc32dea2c46102453b0dbc24b1') in 0.063695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-29.exr
+  artifactKey: Guid(26d87f46f39c51a40a63ae1809d6c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-29.exr using Guid(26d87f46f39c51a40a63ae1809d6c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ea2a356463455a528df86d4bc76654') in 0.053029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-21.exr
+  artifactKey: Guid(891bd20c829c468449ce3933420d7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-21.exr using Guid(891bd20c829c468449ce3933420d7eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b6bc8e05a2487bc0169168bfe0b854') in 0.091954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Forest Demo Scene/ReflectionProbe-28.exr
+  artifactKey: Guid(a695b757a5d077a4990fa8ab3f054a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Demo Scene/ReflectionProbe-28.exr using Guid(a695b757a5d077a4990fa8ab3f054a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9758d0fe407d6801382b3288b08b9f9a') in 0.075749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.921856 seconds.
+  path: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Demo Scenes/Forest Overview Scene/LightingData.asset
+  artifactKey: Guid(45d68dd485745ba4aa6d8f468e30f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Demo Scenes/Forest Overview Scene/LightingData.asset using Guid(45d68dd485745ba4aa6d8f468e30f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '1c53314c3166820b021b8a5cd2015895') in 0.005045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Demo Scenes/Forest Overview Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(943f216f899087d4db4d356a4aa53d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Demo Scenes/Forest Overview Scene/ReflectionProbe-0.exr using Guid(943f216f899087d4db4d356a4aa53d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c349bb816d76f409471fc922efbd4bc') in 0.087923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 432.931709 seconds.
+  path: Assets/Procedural Worlds/Generator/progenerator/Weather/VFX/Materials/PW_VFX_Snowfall_Close.mat
+  artifactKey: Guid(6a6eb41f73c568a4690ff3e42055d1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Generator/progenerator/Weather/VFX/Materials/PW_VFX_Snowfall_Close.mat using Guid(6a6eb41f73c568a4690ff3e42055d1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6061c61be00e1e7447f89528f05a32') in 0.018814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.873596 seconds.
+  path: Assets/Scripts/qqqq.cs
+  artifactKey: Guid(b2bce6547b9e0fa4cb7cca7e654adb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/qqqq.cs using Guid(b2bce6547b9e0fa4cb7cca7e654adb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0047fffaa55faadd42b1c3a4e8fc090b') in 0.005056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 280.901098 seconds.
+  path: Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem/TerrainSceneCreator.cs
+  artifactKey: Guid(f68cd8ccfa648524dba756b4fbcea088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem/TerrainSceneCreator.cs using Guid(f68cd8ccfa648524dba756b4fbcea088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c842f6425c42b5901134df2786cbe55') in 0.001484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.877656 seconds.
+  path: Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem
+  artifactKey: Guid(6320aa623ab155049be617d804bdb3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem using Guid(6320aa623ab155049be617d804bdb3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d88ab5f546085c77d05dde160250e2') in 0.001866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.250456 seconds.
+  path: Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem/NewBehaviourScript.cs
+  artifactKey: Guid(8a959b9507530e340949502447ef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem/NewBehaviourScript.cs using Guid(8a959b9507530e340949502447ef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cf8a0154f9cda877f334eaa9142b3d') in 0.004806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.538747 seconds.
+  path: Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem/то что я сломал.cs
+  artifactKey: Guid(8a959b9507530e340949502447ef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural Worlds/Generator/progenerator/Scripts/MultiTerrainSystem/то что я сломал.cs using Guid(8a959b9507530e340949502447ef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbf17b7e1f35043187f35e331e9af04') in 0.001336 seconds 
