@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/XXX.unity
+    guid: 8dc15af6585325b47b716a9eeb698685
+  - enabled: 0
+    path: Assets/dvdvvv.unity
+    guid: 7b4f5112ba243ed4a8a4bff747ab4e49
+  - enabled: 0
+    path: Assets/Scenes/JJJ.unity
+    guid: 1ba3d8a5bb3ba444d8ce70df82655bd1
+  - enabled: 0
+    path: Assets/DDDSX.unity
+    guid: fb6ce37b41a1cf54199ba8f0abbd5329
+  - enabled: 0
+    path: Assets/dsvsdfv.unity
+    guid: 161cf94338b651b4dbadfc6edd415b03
+  - enabled: 1
+    path: Assets/NatureManufacture Assets/Forest Environment Dynamic Nature/Demo
+      Scenes/Forest Demo Scene.unity
+    guid: 3c698a3ac77025942a8cd0682cb02889
+  m_configObjects: {}
